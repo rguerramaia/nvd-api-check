@@ -3,7 +3,7 @@
 #Define path to the list of programs
 input_file="app_versions.txt"
 
-#Rea the lines of fhe file
+#Read the lines of fhe file
 while IFS= read -r line; do
     #Extract program name and version
     app_name=$(echo $line | cut -d',' -f1)
